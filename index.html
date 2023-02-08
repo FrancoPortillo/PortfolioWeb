@@ -63,7 +63,7 @@
     <div class="text-center">
       <h1 class="titulo text-center">Desarrollador Web</h1>
       <img
-        class="img-fluid foto-perfil"
+        class="img-fluid text-center foto-perfil"
         src="images/foto_cv.jpg"
         alt="Foto de Franco Portillo "
       />
@@ -76,18 +76,29 @@
         >Descargá mi CV</a
       >
     </div>
-    <!-- Sobre Nosotros -->
+    <!-- Sobre Mi -->
     <section id="about">
       <h2 class="text-center">Sobre mi</h2>
-      <p class="text-center">
+      <p class="about-mi text-center">
         Hola, soy Franco Portillo, desde 2021 me estoy formando en el Desarrollo
         Frontend.
         <br />
         Asimismo estoy estudiando la carrera de Ingenieria en Sistemas de
         Información en la Universidad Tecnológica Nacional.
       </p>
-      <h3 class="text-center">Certificados</h3>
-      <h3 class="text-center">Tecnologias</h3>
+      <div class="certificados-tecnologias">
+        <div class="text-center">
+          <h3 class="text-center text-decoration-underline">Certificados</h3>
+          <img
+            class="img-fluid img-certificado-coder"
+            src="images/certificado-desarrolloWeb.png"
+            alt="certificado de CoderHouse"
+          />
+        </div>
+        <div>
+          <h3 class="text-center text-decoration-underline">Tecnologias</h3>
+        </div>
+      </div>
     </section>
     <!-- Portfolio -->
     <section id="portfolio">
@@ -103,14 +114,12 @@
               Pagina para Proyecto Final de CoderHouse sobre una Carniceria, en
               la que utilicé HTML y CSS.
             </p>
-            <button type="button" class="btn btn-dark">
-              <a
-                href="https://carnicerialaesmeralda.netlify.app/"
-                target="_blank"
-                class="card-link"
-                >Visitala</a
-              >
-            </button>
+            <a
+              href="https://carnicerialaesmeralda.netlify.app/"
+              target="_blank"
+              class="card-link"
+              >Visitala</a
+            >
           </div>
         </div>
         <div class="card">
@@ -133,11 +142,62 @@
             >
           </div>
         </div>
+        <div class="card">
+          <div class="image">
+            <img
+              src="images/pagina-qatar.png"
+              alt="Imagen de la pagina pintemas color"
+            />
+          </div>
+          <div class="content">
+            <h3 class="title">Pagina Qatar 2022</h3>
+            <p class="description">
+              Pagina en la que utilicé HTML,CSS, BOOTSTRAP.
+            </p>
+            <a
+              href="https://qatar2022arg.netlify.app/"
+              target="_blank"
+              class="card-link"
+              >Visitala</a
+            >
+          </div>
+        </div>
       </div>
     </section>
     <!-- Contacto -->
     <section id="contacto">
       <h2 class="text-center">Contacteme</h2>
+      <div class="redes container text-center">
+        <div>
+          <a href="https://github.com/FrancoPortillo" target="_blank">
+            <img src="images/github.png" class="img-icono" alt="icono github" />
+          </a>
+          <p>Mi Github</p>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/franco-javier-portillo-colinas-61639117b/"
+            target="_blank"
+          >
+            <img
+              src="images/linkedin.png"
+              class="img-icono"
+              alt="icono linkedin"
+            />
+          </a>
+          <p>Mi Linkedin</p>
+        </div>
+        <div>
+          <a href="mailto:francoportillo@outlook.es">
+            <img
+              src="images/correo-electronico.png"
+              class="img-icono"
+              alt="icono correo"
+            />
+          </a>
+          <p>Email: francoportillo@outlook.es</p>
+        </div>
+      </div>
     </section>
     <!-- JS DE BOOTSTRAP -->
     <script
